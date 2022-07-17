@@ -1,0 +1,31 @@
+svg path {
+  transition: all 300ms ease-in-out;
+}
+
+svg path.current {
+  fill: #3b729f;
+}
+/* #3b729f */
+body {
+  background-color: #333;
+}
+.inset {
+  max-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #0d47a1;
+  color: #f1f1f1;
+  border-radius: 5px;
+  height: 25px;
+  position: absolute;
+  /* boxshadow */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+.map_inner {
+  position: relative;
+  overflow: auto;
+}
